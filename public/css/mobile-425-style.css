@@ -29,6 +29,7 @@
     
     .work-experience .row .col-md-6 .panel p {
         font-size: 0.8rem;
+        text-align: left;
     }
 
     .work-experience .row .col-md-6 .panel {
@@ -36,7 +37,7 @@
     }
 
     .space-span {
-        padding-right: 40px;
+        padding-right: 115px;
     }
 
     .skills .technical {

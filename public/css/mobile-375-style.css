@@ -7,6 +7,10 @@
         font-size: 0.6rem;
     }
 
+    .space-span {
+        padding-right: 115px;
+    }
+
     .cover .content p {
         font-size: 3vmin;
     }
