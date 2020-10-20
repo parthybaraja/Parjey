@@ -20,6 +20,10 @@
     color: orange;
 }
 
+.nav-dark-color {
+    color: black !important;
+}
+
 header a{
     font-family: var(--title-font);
     font-size: 0.9rem;

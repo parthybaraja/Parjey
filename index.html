@@ -23,7 +23,7 @@
     <header>
         <!--navigation bar-->
         <div class="container-fluid p-0">
-            <nav id="navbar" class="navbar navbar-expand-lg">
+            <nav id="navbar" class="navbar navbar-light navbar-expand-lg">
                 <a class="navbar-brand" href="#title">Parjey</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,17 +33,18 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link nav-dark-color" href="#title">Home <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#work-experience">Work</a>
+                            <a class="nav-link nav-dark-color" href="#work-experience">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
+                            <a class="nav-link nav-dark-color" href="#education">Education</a>
                         </li>
                         <li class="nav-item dropdown">
                             <div class="dropdown">
-                                <a class="nav-link">Skills</a>
+                                <a class="nav-link nav-dark-color">Skills</a>
                                 <div class="dropdown-content">
                                     <a data-target="#skillsCarousel" data-slide-to="0" href="#skills">Technical</a>
                                     <a data-target="#skillsCarousel" data-slide-to="1"
@@ -52,10 +53,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#achievements">Acheivements</a>
+                            <a class="nav-link nav-dark-color" href="#achievements">Acheivements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">Contact</a>
+                            <a class="nav-link nav-dark-color" href="#about">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -302,7 +303,7 @@
                                 <div class="professional shadow-lg">
                                     <div class="d-flex flex-row justify-content-center">
                                         <div class="text text-left">
-                                            <h3 class="pt-1 m-0">Effficient Programming</h3>
+                                            <h3 class="pt-1 m-0">Efficient Programming</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -444,7 +445,7 @@
     <footer>
         <div id="about" class="container-fluid p-0">
             <div class="row text-left">
-                <div class="col-md-5 col-sm-5">
+                <div class="col-md-5 col-sm-5 align">
                     <h1 class="text-light">More about Me</h1>
                     <p class="text-muted">
                         Held IF Training sessions for freshers at Infoview.
@@ -459,15 +460,16 @@
                         Copyrights 2020. All rights reserved.
                     </p>
                 </div>
-                <div class="col-md-5 col-sm-5 email-section">
+                <div class="col-md-5 col-sm-5 email-section align">
                     <h4 class="text-light">Contact</h4>
                     <p class="text-muted">To stay in touch drop a mail</p>
-                    <form class="form-inline">
+                    <form class="form-inline margin-left" method="post"
+                        action="mailto:parthy000navy@gmail.com?subject=Contact Mail">
                         <div class="col pl-0">
                             <div class="input-group pr-5">
                                 <input type="text" class="form-control bg-dark text-white email-border"
                                     placeholder="Email">
-                                <button class="input-group-text email-border">Go!</button>
+                                <button class="input-group-text email-border" type="submit">Go!</button>
                                 <!-- <div class="input-group-prepend">
                                     <div class="input-group-text">
                                         Go!
@@ -477,14 +479,18 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 align">
                     <h4 class="text-light">Follow Me</h4>
                     <p class="text-muted">Let us be connected everywhere!!</p>
                     <div class="column">
-                        <img class="logo-section facebook" src="public/assets/facebook.png" alt="facebook">
-                        <img class="logo-section instagram" src="public/assets/ig.png" alt="instagram">
-                        <img class="logo-section twitter" src="public/assets/twitter.png" alt="twitter">
-                        <img class="logo-section youtube" src="public/assets/youtube.png">
+                        <img class="logo-section facebook" src="public/assets/facebook.png" alt="facebook"
+                            onclick="window.open('https://www.facebook.com/parthy.baraja');">
+                        <img class="logo-section instagram" src="public/assets/ig.png" alt="instagram"
+                            onclick="window.open('https://www.instagram.com/parthy7/');">
+                        <img class="logo-section twitter" src="public/assets/twitter.png" alt="twitter"
+                            onclick="window.open('https://mobile.twitter.com/parthybaraja');">
+                        <img class="logo-section youtube" src="public/assets/youtube.png"
+                            onclick="window.open('https://www.youtube.com/channel/UC1OTHAorZ8tAaW4DErnt6ww/');">
                     </div>
                 </div>
             </div>

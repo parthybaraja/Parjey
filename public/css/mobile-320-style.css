@@ -1,4 +1,8 @@
 @media only screen and (max-width: 320px) {
+    .space-span {
+        padding-right: 110px;
+    }
+
     .percentage .rect {
         width: 6rem;
         height: 6rem;

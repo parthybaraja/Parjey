@@ -35,6 +35,10 @@
         left: 4vmin;
     }
 
+    .space-span {
+        padding-right: 40px;
+    }
+
     .skills .technical {
         padding: 0;
     }
@@ -63,5 +67,13 @@
 
     .skills .col-md-12>h1 {
         font-size: 5vmin;
+    }
+
+    .align {
+        text-align: center;
+    }
+
+    .margin-left {
+        margin-left: 17vmin;
     }
 }
